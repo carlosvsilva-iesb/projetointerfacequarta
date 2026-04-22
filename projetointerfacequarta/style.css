@@ -1,0 +1,164 @@
+body{
+    margin: 10px;
+    background-color: rgb(188, 145, 105);
+    color: black;
+    border: 2px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1, h2 {
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+.imagemanatomia {
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin-left: 35px;
+}
+
+#quetzalhunting {
+    border: 2px solid black;
+    height: 250px;
+    width: 500px;
+}
+
+#imagem_central {
+    border: 2px solid black;
+}
+
+.linhatop {
+    border-top: 1px solid rgb(124, 81, 64);
+}
+
+p {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.menu {
+    font-size: large;
+    list-style: none;
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding-left: 360px;
+}
+.menu li{
+    text-align: center;
+    width: 150px;
+    background-color:rgb(165, 114, 84) ;
+    position: relative;
+    border: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    float:none;
+}
+.menu li a{
+    text-decoration: none;
+    display:block;
+    color: black;
+}
+.menu li ul{
+    position: absolute;
+    top:22px;
+    left:-100px;
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+.menu li a:hover {
+    color: aliceblue;
+    background-color: rgb(124, 81, 64);
+    text-shadow:0px 0px 0px aliceblue;;
+}
+.menu li ul li{
+    border: 2px solid black;
+    background-color: rgb(165, 114, 84,);
+    display: block;
+    width: 150px;
+    left: 60px; 
+}
+.container{
+    padding: 20px;
+    text-align: left;
+    border-radius: 15px;
+    border:2px outset rgb(124, 81, 64);
+    background-color: rgb(165, 114, 84);
+    margin: 20px;
+}
+ul, ol {
+    font-size:large;
+}
+
+/*Página de Jogos*/
+#bodygames p{
+    text-align: center;
+}
+
+.imagensgames {
+    border: 2px solid black;
+    margin:20px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#filhotesquetzal {
+    border: 2px solid black;
+    height: 250px;
+    width: 500px;
+}
+
+#jp3{
+    border: 2px solid black;
+    align-items: center;
+}
+table {
+    margin-left: 25px;
+    border: 2px solid black;
+    width: 500px;
+    height: 70px;
+    background-color: rgb(201, 165, 132);
+    border-collapse: collapse;
+}
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.categoria {
+    background-color: rgb(165, 114, 84);
+}
+.cartas{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.desccartas {
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -5px;
+    border: 2px solid black;
+    background-color: rgb(188, 145, 105);
+}
+#container-imagem {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(165, 114, 84);
+    border: 2px outset rgb(124, 81, 64);
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 5%;
+}

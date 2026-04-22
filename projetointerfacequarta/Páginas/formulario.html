@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Formulário
+    </title>
+    <!--Favicon-->
+    <link rel="icon" type="Image/png" href="../Ícones/Jurassic_Park_logo.png">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!--Menu-->
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Artigo</a></li>
+            <li><a href="../Páginas/pagina1.html">Jogos</a></li>
+            <li>
+                Fontes
+            <ul>
+                <li><a target="_blank" href="https://en.wikipedia.org/wiki/Quetzalcoatlus">Wikipédia</a></li>
+                <li><a target="_blank" href="https://www.nhm.ac.uk/discover/news/2021/december/largest-ever-flying-animal-behaved-like-giant-heron.html">Natural History Museum</a></li>
+                <li><a target="_blank" href="https://aventurasnahistoria.com.br/noticias/almanaque/como-vivia-o-maior-animal-voador-que-ja-existiu.phtml">Aventuras na História</a></li>
+                <li><a target="_blank" href="https://www.nationalgeographicbrasil.com/historia/2017/11/por-que-os-pterossauros-foram-as-criaturas-voadoras-mais-estranhas">National Geographic</a></li>
+        </ul>
+        </li>
+            <li><a href="../Páginas/formulario.html">Formulário</a></li>
+        </ul>
+    </nav>
+    <!--Formulário-->
+    <h1 id="Ancora3">Formulário</h1>
+    <fieldset><legend>Informações Pessoais</legend>
+    <form action="../Páginas/pagina1.html" method="post">
+        <p>Nome: <input type="text" name="nome" placeholder="Insira seu nome"></p>
+        <p>Telefone: <input type="tel" name="telefone" placeholder="(00)00000-0000" maxlength="14"></p>
+        <p>Data de Nacimento: <input type="date" name="data_de_nascimento" placeholder="Insira seu nome"></p>
+        <p>Email: <input type="email" name="email" placeholder="Insira seu email"></p>
+        <p>Senha: <input type="password" name="Senha" placeholder="Insira sua senha"></p>
+        </fieldset>
+        <br>
+        <fieldset><legend>Interesses</legend>
+        <p>Período de preferência</p>
+        <input type="radio" name="Período" value="Triássico">Triássico
+        <br>
+        <input type="radio" name="Período" value="Jurássico">Jurássico
+        <br>
+        <input type="radio" name="Período" value="Cretáceo">Cretáceo
+        <br>
+        <p>Espécie favorita</p>
+        <select>
+            <option value="Espinossauro">Espinossauro</option>
+            <option value="Tiranossauro">Tiranossauro</option>
+            <option value="Triceratops">Triceratops</option>
+            <option value="Paquicefalossauro">Paquicefalossauro</option>
+            <option value="Anquilossauro">Anquilossauro</option>
+            <option value="Stygimoloch">Stygimoloch</option>
+            <option value="Parassaurolofo">Parassaurolofo</option>
+            <option value="Dilofossauro">Dilofossauro</option>
+            <option value="Quetzalcoatlus">Quetzalcoatlus</option>
+            <option value="Atrociraptor">Atrociraptor</option>
+            <option value="Suchomimus">Suchomimus</option>
+            <option value="Utahraptor">Utahraptor</option>
+            <option value="Tapejara">Tapejara</option>
+        </select>
+        <p>Filme Favorito</p>
+        <select>
+            <option value="Jurassic Park">Jurassic Park</option>
+            <option value="Jurassic Park 2">Jurassic Park 2</option>
+            <option value="Jurassic Park 3">Jurassic Park 3</option>
+            <option value="Jurassic World">Jurassic World</option>
+            <option value="Jurassic World: Reino Ameaçado">Jurassic World: Reino Ameaçado</option>
+            <option value="Jurassic World: Domínio">Jurassic World: Domínio</option>
+            <option value="Jurassic World: Recomeço">Jurassic World: Recomeço</option>
+        </select>
+        <p>Jogo Favorito</p>
+        <select>
+            <option value="Jurassic Park (SNES)">Jurassic Park (SNES)</option>
+            <option value="Jurassic Park III: Park Builder">Jurassic Park III: Park Builder</option>
+            <option value="Jurassic Park: Operation Genesis">Jurassic Park: Operation Genesis</option>
+            <option value="Jurassic World Evolution">Jurassic World Evolution</option>
+            <option value="Jurassic World Evolution 2">Jurassic World Evolution 2</option>
+            <option value="Jurassic World Evolution 3">Jurassic World Evolution 3</option>
+            <option value=""></option>
+        </select>
+        <p>Comentário</p>
+        <textarea rows="10" cols="100" placeholder="Deixe um feedback :)"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <input type="checkbox">Aceito os Termos.
+        <br>
+        <input type="checkbox">Li e concordo.
+        <br>
+        <input type="checkbox">Desejo receber email referentes aos meus interesses.
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+    <br>
+    <br>
+    <a href="#Ancora3">Voltar ao início</a>
+</body>
+</html>
